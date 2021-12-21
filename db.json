@@ -1,0 +1,68 @@
+[
+  {
+    "id": 1,
+    "productName": "Shoes Nike Blazer Mid",
+    "productPrice": "$22999",
+    "img": "assets/img/products/ZapatillasNikeBlazerMid.jpg"
+  },
+  {
+    "id": 2,
+    "productName": "Trousers Nike Revival",
+    "productPrice": "$16499",
+    "img": "assets/img/products/PantalonNikeRevival.jpg"
+  },
+  {
+    "id": 3,
+    "productName": "Short Nike Sportswear",
+    "productPrice": "$8999",
+    "img": "assets/img/products/ShortNikeSportswear.jpg"
+  },
+  {
+    "id": 4,
+    "productName": "Hat Nike Sportswear",
+    "productPrice": "$4799",
+    "img": "assets/img/products/GorraNikeSportswearFuturaPro.jpg"
+  },
+  {
+    "id": 5,
+    "productName": "Jacket Jordan PSG",
+    "productPrice": "$20999",
+    "img": "assets/img/products/CamperaJordanParisSaintGermain.jpg"
+  },
+  {
+    "id": 6,
+    "productName": "Shoes Vans Old Skool",
+    "productPrice": "$13500",
+    "img": "assets/img/products/ZapatillasVansOldSkool.jpg"
+  },
+  {
+    "id": 7,
+    "productName": "T-shirt Vans Otw",
+    "productPrice": "$3650",
+    "img": "assets/img/products/RemeraVansOtw.jpg"
+  },
+  {
+    "id": 8,
+    "productName": "Jacket Nike Sportswear",
+    "productPrice": "$15999",
+    "img": "assets/img/products/CamperaNikeSportswearFemme.jpg"
+  },
+  {
+    "id": 9,
+    "productName": "T-shirt Nike Sportswear",
+    "productPrice": "$7999",
+    "img": "assets/img/products/RemeraNikeSportswear.jpg"
+  },
+  {
+    "id": 10,
+    "productName": "Socks Puma",
+    "productPrice": "$1429",
+    "img": "assets/img/products/MediasPuma.jpg"
+  },
+  {
+    "id": 11,
+    "productName": "Shoes Nike Chron",
+    "productPrice": "$19999",
+    "img": "assets/img/products/ZapatillasNikeChron.jpg"
+  }
+]

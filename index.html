@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shop</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link href="assets/icons/css/all.css" rel="stylesheet" />
+    <script src="store.js" async></script>
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+  </head>
+  <body>
+    <header>
+      <img class="logo" src="assets/img/logo.png" alt="" />
+      <div class="title">
+        <lottie-player
+          src="https://assets8.lottiefiles.com/packages/lf20_ontdhO.json"
+          background="transparent"
+          speed="0.7"
+          loop
+          autoplay
+        ></lottie-player>
+      </div>
+      <div class="containerUserMenu">
+        <ul>
+          <li>
+            <div class="containerIconCart" onclick="closeCart()">
+              <i class="fas fa-shopping-cart iconCart"></i>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </header>
+    <main>
+      <div class="containerShopCart">
+        <div id="shopItems" class="containerShop"></div>
+        <div class="containerCart hideCart">
+          <div class="containerHeaderCart">
+            <i
+              class="fas fa-window-close iconCloseCart"
+              onclick="closeCart()"
+            ></i>
+            <h2>Cart</h2>
+          </div>
+          <div class="containerPurchaseTitles">
+            <p class="purchaseProductTitle">Product</p>
+            <p class="purchaseQuantityTitle">Quantity</p>
+            <p class="purchasePriceTitle">Price</p>
+          </div>
+          <div class="containerPurchase"></div>
+          <div class="containerTotal">
+            <p>Total</p>
+            <p class="containerTotalPrice">$0</p>
+          </div>
+          <button class="btnPurchase">Purchase</button>
+        </div>
+        <div class="FABContainerIconCart" onclick="closeCart()">
+          <i class="fas fa-shopping-cart FABiconCart"></i>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <div class="footerBody">
+        <div class="data">
+          <ul>
+            <li><a href="#" target="_blank">NEAREST LOCALS</a></li>
+            <li>
+              <a href="#" target="_blank">SIGN UP TO RECEIVE NEWS</a>
+            </li>
+          </ul>
+          <ul>
+            <li>CONTACT US</li>
+            <li>
+              <a href="https://web.whatsapp.com/" target="_blank"
+                ><span>Tel: 0810-555-2854</span></a
+              >
+            </li>
+          </ul>
+          <ul>
+            <li>ABOUT</li>
+            <li>
+              <a href="#" target="_blank"><span>News</span></a>
+            </li>
+            <li>
+              <a href="#" target="_blank"><span>Jobs</span></a>
+            </li>
+            <li>
+              <a href="#" target="_blank"><span>Investors</span></a>
+            </li>
+            <li>
+              <a href="#" target="_blank"><span>Sustainability</span></a>
+            </li>
+          </ul>
+        </div>
+        <div class="social">
+          <a href="https://gitddhub.com/mgmaxi" target="_blank"
+            ><i class="fab fa-twitter-square"></i
+          ></a>
+          <a href="https://gitddhub.com/mgmaxi" target="_blank"
+            ><i class="fab fa-facebook-square"></i
+          ></a>
+          <a href="https://gitddhub.com/mgmaxi" target="_blank"
+            ><i class="fab fa-youtube-square"></i
+          ></a>
+          <a href="https://gitddhub.com/mgmaxi" target="_blank"
+            ><i class="fab fa-instagram-square"></i
+          ></a>
+        </div>
+      </div>
+      <div class="subFooter">
+        <a href="https://gitddhub.com/mgmaxi" target="_blank">
+          Developed by Maximiliano Melani Ghirardi
+          <i class="fab fa-github"></i>
+        </a>
+      </div>
+    </footer>
+    <template id="shopItem">
+      <div class="containerItem">
+        <img class="productImg" src="" alt="Imágen del producto" />
+        <h2 class="productName"></h2>
+        <p class="productPrice"></p>
+        <button class="btnAddCart">Add to Cart</button>
+      </div>
+    </template>
+  </body>
+</html>
